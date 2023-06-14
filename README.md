@@ -1,15 +1,3 @@
----
-title: Chatpdf
-emoji: 🐨
-colorFrom: yellow
-colorTo: blue
-sdk: streamlit
-sdk_version: 1.21.0
-app_file: index.py
-pinned: false
-license: apache-2.0
----
-
 # 项目简介
 利用chatgpt api和pinecone向量数据库，基于langchain和streamlit开发的本地知识库问答系统：
 - 前端采用streamlit开发，支持本地部署
