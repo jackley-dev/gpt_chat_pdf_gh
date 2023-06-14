@@ -30,5 +30,5 @@ PINECONE_INDEX='xx'
 2. 利用langchain中的load_qa_chain函数，将query和查询到的相似内容作为参数传入，即可得到基于知识库的回答
 
 # 演示实例：
-1. 地址：https://huggingface.co/spaces/jackley86/gpt_chat_pdf
+1. 演示地址：https://huggingface.co/spaces/jackley86/gpt_chat_pdf
 2. 由于可能有人上传大文档，演示站点的api token消耗过快，免费额度耗尽后无法继续使用，建议使用个人key在本地部署
