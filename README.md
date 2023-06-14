@@ -31,4 +31,4 @@ PINECONE_INDEX='xx'
 
 # 演示实例：
 1. 演示地址：https://huggingface.co/spaces/jackley86/gpt_chat_pdf
-2. 由于可能有人上传大文档，演示站点的api token消耗过快，免费额度耗尽后无法继续使用，建议使用个人key在本地部署
+2. 由于可能有人上传大文档，演示站点的api token消耗过快，免费额度耗尽后无法继续使用问答功能，但仍可查看界面及功能设计；若要体验完整功能，建议使用个人key在本地部署
