@@ -2,7 +2,7 @@
 利用chatgpt api和pinecone向量数据库，基于langchain和streamlit开发的本地知识库问答系统：
 - 前端采用streamlit开发，支持本地部署
 - 支持在web端上传pdf文档
-- 支持向量化上传的文档，并存储到pinecone数据库
+- 支持对所上传的文档进行向量化，并存储到pinecone数据库
 - 支持基于数据库中的特定领域知识进行问答
 
 # 使用指南
@@ -31,4 +31,4 @@ PINECONE_INDEX='xx'
 
 # 演示实例：
 1. 演示地址：https://huggingface.co/spaces/jackley86/gpt_chat_pdf
-2. 由于可能有人上传大文档，演示站点的api token消耗过快，免费额度耗尽后无法继续使用问答功能，但仍可查看界面及功能设计；若要体验完整功能，建议使用个人key在本地部署
+2. 由于可能有人上传大文档，演示站点的api token消耗过快，免费额度耗尽后无法继续使用向量化和问答功能，但仍可查看界面及功能设计；若要体验完整功能，建议使用个人key在本地部署
